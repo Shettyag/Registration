@@ -1,6 +1,6 @@
 # Registration
 
-# This is a sample Registration table.
+# sample Registration table.
 
 CREATE TABLE Registration (
                               ID INT PRIMARY KEY AUTO_INCREMENT,
