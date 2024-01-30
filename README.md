@@ -1,19 +1,19 @@
 # Registration
 
-# This is a sample Registration table that I have created in sqlite database browser
+# This is a sample Registration table.
 
 CREATE TABLE Registration (
-                              ID INTEGER PRIMARY KEY AUTOINCREMENT,
-                              Name TEXT NOT NULL,
-                              Email TEXT UNIQUE NOT NULL,
+                              ID INT PRIMARY KEY AUTO_INCREMENT,
+                              Name VARCHAR(100) NOT NULL,
+                              Email VARCHAR(100) UNIQUE NOT NULL,
                               DateOfBirth DATE NOT NULL,
-                              Gender TEXT NOT NULL,
-                              PhoneNo TEXT,
-                              Address TEXT,
-                              City TEXT,
-                              State TEXT,
-                              Country TEXT,
-                              ZipCode TEXT
+                              Gender VARCHAR(100) NOT NULL,
+                              PhoneNo VARCHAR(100),
+                              Address VARCHAR(100),
+                              City VARCHAR(100),
+                              State VARCHAR(100),
+                              Country VARCHAR(100),
+                              ZipCode VARCHAR(100)
                            )
 
 #  To run registration.py code 
