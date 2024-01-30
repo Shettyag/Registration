@@ -25,7 +25,7 @@ CREATE TABLE Registration (
    python registration.py
 4. The script will create a new SQLite database file named registration.db and a table named Register in it.
 
-#  implementation of crud operations:
+#  implementation of CRUD operations:
 
 1. # Create a record
       db.create_record("rakesh", "rakesh23@example.com", "2000-12-03","Male","097711789","342 st","Hyderabad","Andra","India","451234")
