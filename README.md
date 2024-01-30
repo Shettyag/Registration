@@ -16,7 +16,7 @@ CREATE TABLE Registration (
                               ZipCode TEXT
                            )
 
-#  To run this code 
+#  To run registration.py code 
 
 1. Install the sqlite3 module if it is not already installed. we can install it using:
    pip install pysqlite3
